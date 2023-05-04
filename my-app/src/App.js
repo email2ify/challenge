@@ -1,16 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Sidebar from './components/Sidebar';
-
+import css from './App.module.css';
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-
-    <div className="App">
-     My photos, My illustrations, My Paintings
-   
+    <div className={css.App}>
+      {/* Add your components here */}
+      <Sidebar />
     </div>
-
   );
 }
 
