@@ -22,16 +22,16 @@ class NavBarForm extends Component {
             <div className={css.NavBar}>
                 <h1>My Gallery</h1>
                 {
-              //      this.state.isLoggedIn ?
-               //         <button onClick={() => this.handleButtonClick()}>Login</button>
-               //         :
+                    this.state.isLoggedIn ?
+                       <button onClick={() => this.handleButtonClick()}>Login</button>
+                       :
                         <form>
                             <label htmlFor="username">Username:</label>
                             <input placeholder="username" id="username" />
 
                             <label htmlFor="password">Password:</label>
                             <input placeholder="password" id="password" />
-                            <button onClick={() => this.handleButtonClick()}>login</button>
+                            <button onClick={() => this.handleButtonClick()}>Summit</button>
                         </form>
                 }
             </div>
